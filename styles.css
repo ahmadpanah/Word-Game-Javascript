@@ -1,0 +1,55 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+hr {
+    width: 500px;
+}
+
+#title {
+   font-size: 35px;
+   font-weight: bold;
+   letter-spacing: 3px; 
+}
+
+#board {
+    width: 350px;
+    height: 420px;
+    margin: 0 auto;
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    /* Box Style */
+    border: 2px solid rgba(172, 199, 231, 0.623);
+    width: 60px;
+    height: 60px;
+    margin: 2.5px;
+    /* Text */
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.correct {
+    background-color: rgb(11, 189, 11);
+    color: white;
+    border-color: antiquewhite;
+}
+
+.present {
+    background-color: rgb(226, 240, 31);
+    color: white;
+    border-color: antiquewhite;
+}
+
+.absent {
+    background-color: rgb(243, 33, 17);
+    color: white;
+    border-color: antiquewhite;
+}
